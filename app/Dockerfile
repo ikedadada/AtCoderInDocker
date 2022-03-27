@@ -29,6 +29,7 @@ RUN source ~/.ashrc &&\
 RUN echo 'export PATH="$HOME/.pyenv/shims:$PATH"' >> ~/.ashrc
 RUN source ~/.ashrc &&\
   pip install --upgrade pip &&\
-  pip install online-judge-tools
+  pip install online-judge-tools &&\
+  pip install numpy
 
 RUN npm install -g atcoder-cli
