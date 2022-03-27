@@ -23,4 +23,8 @@ if [ -f ~/.ashrc ]; then
 fi
 " >> ~/.profile
 
+cp -r /app/py /root/.config/atcoder-cli-nodejs/py
+
+acc config default-template py
+
 exec "$@"
