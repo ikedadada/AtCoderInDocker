@@ -20,8 +20,15 @@ docker-compose exec app sh --login
 ```
 
 コンテストへのアクセス
+
+初回
 ```
 $ acc new [コンテストID]
+```
+
+追加
+```
+$ acc add
 ```
 
 ディレクトリ移動
@@ -30,9 +37,6 @@ cd [コンテストID]/[問題ID]
 ```
 
 回答の作成
-```
-code answer.py
-```
 
 ```python:answer.py
 #!/usr/bin/env python
